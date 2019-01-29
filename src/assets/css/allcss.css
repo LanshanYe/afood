@@ -1,0 +1,450 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.app-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiperImg{
+    width: 100%;
+}
+.van-pull-refresh__track{
+    min-height: 100%;
+}
+.van-pull-refresh__track .van-pull-refresh__head{
+    top: -18px;
+}
+.clears{
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.messagebox{
+    width: 100%;
+}
+.navheader{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.colorpricered{
+    color: red;
+}
+.btn{
+    margin: 10px;
+}
+li{
+    list-style: none;
+}
+.colorprice{
+    color: #FF4444;
+}
+.marginright20{
+    margin-right: 20px;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.textright{
+    text-align: right;
+}
+div{
+    box-sizing: border-box;
+}
+.lineheight2rem{
+    line-height: 2rem;
+}
+.width100{
+    width: 100%;
+}
+.bordertop{
+    border-top: 1px solid #e3e3e3;
+}
+.borderbottom{
+    border-bottom: 1px solid #e3e3e3;
+}
+.navheader .van-nav-bar__left .van-icon-arrow-left{
+    font-size: 20px;
+}
+.fffbg{
+    background-color: #fff;
+}
+.trani{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 123;
+    left: 0;
+    top: 0;
+}
+.tranipicker{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.van-stepper__minus{
+    border-radius: 100%;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-color: #FC744F;
+    border-width: 2px;
+}
+.van-stepper__plus{
+    border-radius: 100%;
+    background-color: #FC744F;
+    width: 20px;
+    height: 20px;
+}
+.van-stepper__minus::before{
+    width: 10px;
+    height: 2px;
+    background-color: #FC744F;
+}
+.van-stepper__plus::before{
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+}
+.van-stepper__plus::after{
+    width: 2px;
+    height: 10px;
+    background-color: #fff;
+}
+.van-stepper__input{
+    width: 26px;
+    height: 22px;
+}
+.refreshbody .van-pull-refresh__track{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.refreshbody2 .van-pull-refresh__track{
+    padding-top: 40px;
+}
+.margintop6{
+    margin-top: 6px;
+}
+.agood{
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+}
+.payline .el-radio .el-radio__label{
+    display: none;
+}
+.payline .el-radio .el-radio__inner{
+    width: 24px;
+    height: 24px;
+}
+.agoodleft{
+    width: 100px;
+    font-size: 0;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.agoodleft img{
+    width: 100%;
+}
+.van-swipe-item, .van-swipe{
+    width: 100%;
+}
+.el-card, .el-card__body{
+    width: 100%;
+}
+.paddingbottom{
+    padding-bottom: 2rem;
+}
+.agoodright{
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    padding-bottom: 26px;
+}
+.agoodpriceleft{
+    color: #FF4444;
+}
+.agoodright .agoodtext{
+    width: 100%;
+    font-size: 12px;
+}
+.agoodright .agoodtitle{
+    font-size: 14px;
+}
+.agoodright .agooddesc{
+    color: #c9c9c9;
+    margin-top: 4px;
+}
+.agoodright .numright{
+}
+.agoodright .agoodprice{
+    font-size: 1rem;
+    line-height: 26px;
+    position: absolute;
+    padding: 0 5px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+}
+.flexdiv{
+    display: flex;
+    width: 100%;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.fontweight{
+    font-weight: bold;
+}
+.orderbody .van-tabs .van-tabs__content{
+    height: 100%;
+    width: 100%;
+}
+.borderbottom2{
+    border-bottom: 1px solid #efefef;
+}
+.tipcolor{
+    color: #bababa;
+}
+.orderbody .van-tabs .van-tabs__content .van-tab__pane{
+    height: 100%;
+}
+.swiperImgdiv{
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+.homebody .van-swipe .van-swipe-item{
+    padding: 10px 10px 0 10px;
+    background-color: #fff;
+}
+.goods-container .left .van-badge{
+    padding: 20px 3px 20px 0;
+    text-align: center;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.returnicon{
+    width: 2rem;
+}
+.searchbox{
+    flex: 1;
+}
+.positionbtn{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 0 20px;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.popbox{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+.placeimage img{
+    width: 100%;
+}
+.placetext{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*login register*/
+.loginbody{
+    width: 100%;
+    height: 100%;
+}
+.logintop{
+    font-weight: 600;
+    text-align: center;
+    color: #F2643E;
+    padding-bottom: 40px;
+    width: 100%;
+    background-image: url("../images/loginbg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-color: white;
+}
+.imgbox{
+    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+.logos{
+    width: 30%;
+    z-index: 2;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px #888888;
+}
+.gobackicon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+}
+.loginbtn{
+    text-align: right;
+    padding: 10px;
+}
+.loginbutton{
+    border-radius: 40px;
+    width: 86%;
+}
+.loginning .loginbutton{
+    background-color: #FD7251;
+}
+.loginning{
+    width: 100%;
+    text-align: center;
+}
+.toregister{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/*login register*/
+
+/*recommend start*/
+.recommends{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.recommendsleft{
+    float: left;
+}
+.recommendsleft:before{
+    content: '';
+    position: absolute;
+    height: 14px;
+    width: 3px;
+    top: 13px;
+    left: 10px;
+    background-color: #ff5000;
+}
+.recommendsright{
+    float: right;
+}
+.recommendstitle{
+    width: 100%;
+    padding: 0 10px 0 20px;
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+.recommendlists{
+    padding: 0px 10px 10px;
+    width: 100%;
+}
+.recommendlists2{
+    padding: 40px 10px 10px;
+    width: 100%;
+}
+.recommendlist{
+    margin-top: 10px;
+    width: 100%;
+}
+.recommendsmore{
+    color: #B1BDCC;
+}
+.recommendsimg{
+    width: 100%;
+}
+.recommendtitle{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.recommendabstract{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 6px;
+    color: #909090;
+}
+.recommendtime{
+    line-height: 20px;
+    font-size: 12px;
+    color: #a9a9a9;
+    text-align: right;
+}
+.recommendsimgbox{
+    width: 120px;
+    max-height: 150px;
+    overflow: hidden;
+    font-size: 0;
+}
+.recommendstextbox{
+    flex: 1;
+    overflow:hidden;
+    margin-left: 5px;
+}
+/*recommend end*/
+
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active {
+    will-change: transform;
+    transition: all .5s;
+    position: absolute;
+}
+.slide-right-enter {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+.slide-right-leave-active {
+    opacity: 1;
+    transform: translate3d(100%, 0, 0);
+}
+.slide-left-enter {
+    opacity: 1;
+    transform: translate3d(100%, 0, 0);
+}
+.slide-left-leave-active {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+.bgcolorfff{
+    background-color: #fff;
+}
